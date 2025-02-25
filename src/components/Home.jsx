@@ -91,7 +91,7 @@ function Home() {
                     </ul>
                 </NavLink>
             </div>
-            <div className='grid grid-cols-2 max-abu m-auto gap-6'>
+            <div className='grid grid-cols-2 max-abu m-auto gap-6 !mb-20'>
                 {users.map((user) => {
                     return (
                         <div key={user.id} className='p-12 border-2 border-kok/60 relative card' >
@@ -106,7 +106,7 @@ function Home() {
                 })}
             </div>
 
-            <div id='us' className='flex mt-20 justify-between items-center max-abu'>
+            <div id='us' className='flex justify-between items-center max-abu '>
                 <div className='max-w-[40%] flex flex-col items-start gap-5'>
                     <h2 className='text-2xl font-bold'>Lectus nisi sed id dictum. Adipiscing</h2>
                     <p className='text-base my-4 font-light leading-7'>
