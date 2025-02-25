@@ -27,3 +27,6 @@
         color: white;
     }
 }
+.bg-abu{
+    background-image: url(./assets/hero.png);
+}

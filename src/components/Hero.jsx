@@ -5,7 +5,7 @@ function Hero() {
     const { t, i18n } = useTranslation();
 
     return (
-        <div className='bg-cover bg-center h-screen w-full bg-hero-pattern relative pt-[20vh]'>
+        <div className={`bg-cover bg-center h-screen w-full bg-abu relative pt-[20vh]`}>
             <div className=' z-0 absolute top-0 left-0 w-full inset-0 bg-kok/90' ></div>
             <div className='flex  justify-between items-end max-abu text-white'>
                 <div className='relative z-10 max-w-[630px] mt-36'>
