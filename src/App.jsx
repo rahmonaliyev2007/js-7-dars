@@ -6,6 +6,7 @@ import Shareholder from "./pages/Shareholder";
 import Investors from "./pages/Investors";
 import Nest from "./pages/Nest";
 import Contact from "./pages/Contact";
+import { Analytics } from '@vercel/analytics/react';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
             <Route path="contact" element={<Contact/>} />
           </Route>
         </Routes>
+        <Analytics />
       </div>
       </>
   );
