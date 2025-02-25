@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.max-abu {
+    max-width: 1260px;
+    padding: 0 20px;
+    margin: auto;
+}
+.max-abuu {
+    max-width: 1260px;
+    padding: 0;
+    margin: auto;
+}
+*{
+    transition: all 0.4s ease-in-out;
+}
+.border-b-abu{
+    border-bottom: 2px solid #F7F7F7;
+}
+
+.card:hover{
+    background-color: #1840A7;
+    color: white;
+
+    span{
+        color: white;
+    }
+}
